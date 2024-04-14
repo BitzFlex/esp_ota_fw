@@ -1,0 +1,8 @@
+특정 site의 root ca 가져오기	
+	openssl s_client -connect example.com:443 -servername example.com -showcerts
+
+
+
+    raw.githubusercontent.com
+
+    openssl s_client -connect raw.githubusercontent.com:443 -servername raw.githubusercontent.com -showcerts
